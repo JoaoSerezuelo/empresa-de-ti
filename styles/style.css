@@ -23,7 +23,7 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
 }
@@ -47,4 +47,4 @@ button{
 button#login__cadastro {
     background-color: var(--vermelho);
     color: var(--branco);
-}
+  }
