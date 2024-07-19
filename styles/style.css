@@ -1,0 +1,50 @@
+:root{
+    --cinza:#667085;
+    --vermelho:#8E2424;
+    --branco: #F5F5F5;
+    --azul: #101828;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: var(--branco);
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    color: var(--cinza);
+}
+button{
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}
+  
+button#login__cadastro {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
