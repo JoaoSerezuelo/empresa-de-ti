@@ -79,3 +79,34 @@ button#login__cadastro {
     max-width: 50%;
     line-height: 1.5rem;
 }
+
+.metricas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
+}
+
+.metricas__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.metricas__item__numero{
+    color: var(--vermelho);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.metricas__item__paragrafo{
+    color: var(--cinza);
+    line-height: 140%;
+    font-size: 90%;
+}
+
+.metricas__item__titulo{
+    font-weight: 500;
+    color: var(--azul);
+}
+
