@@ -143,3 +143,36 @@ button#login__cadastro {
     max-width: 50%;
     line-height: 1.5rem;
 }
+
+/* VAGAS ABERTAS */
+
+.vagas-abertas__area {
+    display: block;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.vagas-abertas__info {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.vagas-abertas__info__titulo {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.vagas-abertas__info__detalhes {
+    margin-top: 1rem;
+    font-size: 90%;
+    color: var(--text-color);
+    display: flex;
+    gap: 2rem;
+}
