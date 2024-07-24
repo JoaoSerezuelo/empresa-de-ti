@@ -176,3 +176,48 @@ button#login__cadastro {
     display: flex;
     gap: 2rem;
 }
+
+/* depoimento */
+.depoimento{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 1rem;
+    max-width: 80%;
+    margin: 6rem auto;
+}
+
+.depoimento__titulo{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimento__funcionario{
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--azul);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.depoimento__imagem{
+    max-width: 48px;
+}
+
+.depoimento__nome{
+    font-weight: 500;
+    color: var(--azul);
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.depoimento__cargo{
+    font-weight: 400;
+    color: var(--cinza);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
